@@ -1,0 +1,81 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.5;
+  background: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section {
+  margin: 30px 0;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Shared box styling */
+.box {
+  border: 5px solid black;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* -------- Absolute Units -------- */
+.px {
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+}
+
+.cm {
+  width: 2cm;
+  height: 2cm;
+  background: lightgreen;
+}
+
+.in {
+  width: 1in;
+  height: 1in;
+  background: lightcoral;
+}
+
+/* -------- Relative Units -------- */
+.em-text {
+  font-size: 2em; /* relative to parent */
+  color: darkblue;
+}
+
+.rem-text {
+  font-size: 2rem; /* relative to root (html) */
+  color: darkred;
+}
+
+.percent-box {
+  width: 50%;
+  height: 100px;
+  background: gold;
+  text-align: center;
+  line-height: 100px;
+}
+
+.vwvh-box {
+  width: 50vw;
+  height: 20vh;
+  background: violet;
+  text-align: center;
+  line-height: 20vh;
+}
